@@ -1,0 +1,23 @@
+package app;
+
+//importação de biblioteca 
+import java.util.Scanner;
+
+public class App {
+
+	public static void main(String[] args) {
+	            
+		Scanner sc = new Scanner(System.in); // sc Scanner 
+		
+		System.out.println("Digite seu nome :");
+		String nome = sc.nextLine(); //Line = texto 
+		
+		System.out.println("Digite sua Conta Corrente :");
+		int numero = sc.nextInt();  // Int = numeros
+		
+		System.out.println("Nome....:"+nome +"\nConta....:"+numero); //+ concatenação 
+		
+
+	}
+
+}
